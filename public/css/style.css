@@ -312,3 +312,10 @@ a.socialIcon:hover,
   -ms-transition: all 0.8s;
   transition: all 0.8s;
 }
+
+.footForm {
+  background-color: #202020;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
