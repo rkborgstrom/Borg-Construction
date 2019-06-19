@@ -13,6 +13,7 @@
 
 body {
   background-color: #fc7b32 !important;
+
 }
 
 body.nav-opened {
@@ -156,8 +157,8 @@ header .top-message h2 {
 }
 
 .card-deck {
-  margin-top: 0;
-  margin-bottom: 0;
+  padding-bottom: 20px;
+
 }
 
 #goals {
