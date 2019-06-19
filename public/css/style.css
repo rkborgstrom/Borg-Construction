@@ -4,14 +4,263 @@
 
 }
 
-body {
+/* body {
     height: 100%;
     min-height: 100vh;
     background: url('../images/412030.jpg') repeat center center fixed;
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
+} */
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+* {
+  margin: 0;
+  padding: 0;
 }
+
+body.nav-opened {
+  position: relative;
+  background: rgb(50,50,50);
+  z-index: 500;
+}
+
+/* Doesn't seem to be right, but coudln't figure out
+another way just yet. Still learning...*/
+body.nav-opened .site-wrapper {
+  opacity: 0.5;
+}
+
+.body.nav-opened:before {
+  content: "";
+  position: relative; 
+  width: 500px;
+  height: 500px;
+  background: black;
+  z-index: 500;
+}
+
+body.nav-opened .nav {
+  right: 0rem;
+}
+
+p, a {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Futura, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* GENERAL TRANSITIONS */
+
+body, 
+body.nav-opened,
+.nav .nav-close i,
+.nav .nav-close i:hover,
+.nav li a,
+.nav li a:hover,
+.nav .subscribe-btn,
+.nav .subscribe-btn:hover,
+header .main-nav a.logo,
+header .main-nav a.logo:hover,
+header .main-nav .menu-btn,
+header .main-nav .menu-btn:hover {
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+}
+
+/* NAV */
+
+.nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: -16rem;
+  background: #1C363A;
+  width: 16rem;
+  transition: right 0.2s ease;
+  z-index: 1000;
+}
+
+.nav .nav-close i {
+  position: absolute;
+  top: 0.4rem;
+  right: 3%;
+  color: rgb(200,200,200);
+  font-size: 1.5rem;
+  padding: 2%;
+}
+
+.nav .nav-close i:hover {
+  color: white;
+}
+
+.nav .nav-close span {
+  display: none;
+}
+
+.nav h3 {
+  color: white;
+  margin-top: 3.2rem;
+  margin-left: 10%;
+  margin-bottom: 2rem;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 2.5;
+  padding: 0.3rem 10%;
+  color: rgb(200,200,200);
+  border-left: 4px solid transparent;
+  background-image: linear-gradient(to right, transparent, transparent);
+}
+
+.nav li.nav-current a {
+  padding-left: 1.85rem;
+  color: rgb(255,255,255);
+  border-left: 4px solid rgb(100,200,150);
+  background-image: linear-gradient(to right, rgba(100,100,100,0.5) 0%, rgba(100,100,100,0.2) 25%, rgba(100,100,100,0.05) 65%, transparent 100%);
+}
+
+.nav li a:hover {
+  padding-left: 1.85rem;
+  color: rgb(255,255,255);
+  background-image: linear-gradient(to right, rgba(100,100,100,0.5) 0%, rgba(100,100,100,0.2) 25%, rgba(100,100,100,0.05) 65%, transparent 100%);
+  border-left: 4px solid rgb(100,200,150);
+}
+
+.nav .subscribe-btn {
+  position: absolute;
+  display: block;
+  bottom: 2rem;
+  left: 1.5rem;
+  right: 1.5rem;
+  height: 3rem;
+  line-height: 3;
+  text-align: center;
+  color: rgb(100,200,150);
+  border: 1px solid rgb(100,200,150);
+  background: transparent;
+}
+
+.nav .subscribe-btn:hover {
+  background: rgb(100,200,150);
+  color: white;
+}
+
+
+
+/* HEADER */
+
+header {
+  position: relative;
+  display: table;
+  background: #28363A;
+  background-image: url("../images/412030.jpg");
+  background-size: cover;
+  background-position: top 50%;
+  width: 100%;
+  height: 70vh;
+  min-height: 18rem;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+  z-index: 0;
+}
+
+
+header .main-nav {
+  position: absolute;
+  height: 5rem;
+  padding: 1.5rem;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header .main-nav a.logo {
+  display: inline-block;
+  float: left;
+  font-family: "Lobster", Arial, sans-serif;
+  color: rgb(225,225,225);
+  font-size: 2rem;
+}
+
+header .main-nav a.logo:hover {
+  color: #fc7b32;
+}
+
+header .main-nav .menu-btn {
+  display: inline-block;
+  float: right;
+  border: 1px solid rgb(225,225,225);
+  height: 3rem;
+  line-height: 3;
+  text-align: center;
+  width: 7rem;
+  color: rgb(225,225,225);
+  background: rgba(255,255,255,0);
+}
+
+header .main-nav .menu-btn:hover {
+  color: white;
+  border: 1px solid white;
+  background: rgba(255,255,255,0.2);
+}
+
+header .top-message {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+}
+
+header .top-message h1 {
+  font-size: 5rem;
+  color: white;
+  font-weight: 100;
+}
+
+header .top-message hr {
+  border: 3px solid #fc7b32;
+  width: 15%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  margin-top: 0.2rem;
+}
+
+header .top-message h2 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.932);
+}
+
+.site-wrapper {
+  background: rgb(32, 32, 32);
+}
+
+.main-content {
+  width: 80%;
+  margin: 50px auto 50px auto;
+  padding: 50px 0;
+  color: white;
+}
+
 
 
 .card {
@@ -19,14 +268,14 @@ body {
     color: white;
 }
 
-
-.navbar {
-    display: flex;
-    justify-content: center;
+#goals {
+    font-size: 1.5em;
+    color: white;
 }
 
-nav {
-    background-color: #4da3be !important;
+.g1 {
+    color: #F56505;
+    font-size: 2em;
 }
 
 .title {
@@ -39,15 +288,6 @@ h6 {
     color: white;
 }
 
-.center {
-    color: white;
-    height: 70px;
-    background-color: #414b5d;
-    opacity: 0.9;
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-}
 
 .what {
     display: flex;
@@ -102,14 +342,6 @@ a:hover {
 }
 .moment {
     color: darkgray;
-}
-
-.wrapper {
-    color: #fdc700;
-    font-size: 4em;
-    text-align: center;
-    height: 300px;
-    padding-top: 40px;
 }
 
 #foot {
@@ -168,7 +400,7 @@ a.socialIcon:hover, .socialHoverClass {
 	width: 50px;
 	height: 50px;
 	font-size:20px;
-	background-color: #fd5804;
+	background-color: #fc7b32;
 }
 .social-circle li i {
 	margin:0;
