@@ -147,6 +147,11 @@ header .top-message h2 {
   color: white;
 }
 
+.card-title {
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+
 #goals {
   font-size: 1.5em;
   color: white;
