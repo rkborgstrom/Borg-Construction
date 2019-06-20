@@ -77,7 +77,7 @@ p {
 
 
 
-.parallax {
+/* .parallax {
   width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -87,9 +87,9 @@ p {
 }
 
 .z1 {
-  background-image: url('../images/bc2.jpg');
-  height: 30rem;
-}
+  /* background-image: url('../images/bc2.jpg'); */
+  /* height: 30rem;
+}  */
 
 
 
