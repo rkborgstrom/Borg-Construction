@@ -200,10 +200,7 @@ h6 {
   opacity: 0.8;
 }
 
-.btn {
-  background-color: white !important;
-  color: black !important;
-}
+
 
 a:hover {
   background-color: #7cb0e0 !important;
@@ -331,8 +328,6 @@ a.socialIcon:hover,
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
-
 
 .line {
   background-color: white;
