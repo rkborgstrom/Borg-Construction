@@ -91,6 +91,13 @@ p {
   height: 30rem;
 }
 
+@media screen and (max-width: 860px){
+
+  .z1{
+  background-image: url('../images/chicago.jpg');
+  }
+}
+
 
 /* GENERAL TRANSITIONS */
 
