@@ -230,8 +230,6 @@ h6 {
   opacity: 0.8;
 }
 
-
-
 a:hover {
   background-color: #7cb0e0 !important;
   color: rgb(248, 248, 248) !important;
@@ -437,4 +435,16 @@ a.socialIcon:hover,
   .box {
     margin-bottom: 30px !important;
   }
+}
+
+.foot {
+  height: 500px;
+  background-color: #202020;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+#map {
+  height: 100%;
+  width: 100%;
 }
