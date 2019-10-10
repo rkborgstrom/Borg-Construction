@@ -1,0 +1,124 @@
+<% include partials/header %>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+  integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+
+
+
+
+<div class="parallax z1"></div>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-4">
+        <div class="box">
+          <img src="../images/r1.JPG">
+          <div class="content">
+            <h3>Residential</h3>
+            <ul class="icon">
+              <li><a href="#" class="fa fa-search"></a></li>
+              <li><a href="#" class="fa fa-link"></a></li>
+              <br><br>
+              <a href="#" type="button" class="btn btn-dark btn-lg btn-block">See Projects</a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-4">
+        <div class="box">
+          <img src="../images/c1.jpg">
+          <div class="content">
+            <h3>Commercial</h3>
+            <ul class="icon">
+              <li><a href="#" class="fa fa-search"></a></li>
+              <li><a href="#" class="fa fa-link"></a></li>
+              <br><br>
+              <a href="#" type="button" class="btn btn-dark btn-lg btn-block">See Projects</a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-4">
+        <div class="box">
+          <img src="../images/gc1.JPG">
+
+          <div class="content">
+            <h3>General Contracting</h3>
+            <ul class="icon">
+              <li><a href="#" class="fa fa-search"></a></li>
+              <li><a href="#" class="fa fa-link"></a></li>
+              <br><br>
+              <a href="#" type="button" class="btn btn-dark btn-lg btn-block">See Projects</a>
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <hr class='line'>
+
+
+  <section class="form-bg d-flex justify-content-center">
+    <form class="needs-validation" novalidate action="/post" method="POST">
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+              <label for="first_name">First Name</label>
+              <input type="text" class="form-control" id="first_name" placeholder="e.g. John" name="first_name" required>
+            </div>
+      
+            <div class="col-md-4 mb-3">
+                <label for="last_name">Last Name</label>
+                <input type="text" class="form-control" id="last_name" placeholder="e.g. Doe" name="last_name" required>
+              </div>
+      
+              <div class="col-md-4 mb-3">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" name="email" required>
+              </div>
+
+              <div class="col-md-4 mb-3">
+                <label for="message">Message</label>
+                <input type="text" class="form-control" id="message" name="message" required>
+              </div>
+          </div>
+
+    <div class="col-auto pl-5">
+      <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    </div>
+  </form>
+
+  <div class="foot">
+    <div id="map"></div>
+    <script>
+      var map;
+
+      function initMap() {
+        var myLatLng = {lat:41.9255, lng: -87.6488};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUngzv6LeidivGsMjBw03_5f1DNFkA65s&callback=initMap"
+      async defer></script>
+
+  </div>

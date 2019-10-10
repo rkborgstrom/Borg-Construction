@@ -10,7 +10,7 @@ const port = process.env.PORT || 8000;
 const knex = require('knex')(config);
 const morgan = require('morgan');
 const index = require('./routes/index');
-const post = require('./routes/post');
+const data = require('./routes/data');
 var moment = require('moment');
 
 
@@ -34,7 +34,7 @@ app.get('/', (req, res, next) => {
 })
 
 app.use('/index', index);
-app.use(post);
+app.use(data);
 
 app.use((_req, res) => {
     res.sendStatus(404);
