@@ -6,10 +6,6 @@
   integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
-
-
-
-
 <div class="parallax z1"></div>
 
 <body>
@@ -57,46 +53,44 @@
               <br><br>
               <a href="#" type="button" class="btn btn-dark btn-lg btn-block">See Projects</a>
             </ul>
-
           </div>
-
         </div>
       </div>
     </div>
   </div>
 
-
   <hr class='line'>
 
-
-  <section class="form-bg d-flex justify-content-center">
+<section class="form-bg d-flex justify-content-center" id="form">
     <form class="needs-validation" novalidate action="/data" method="POST">
-        <div class="form-row">
-            <div class="col-md-4 mb-3">
+        <h1 class="inq" id="form">Inquiries</h1>
+        <div class="form-row" id="form">
+            <div class="col-md-4 mb-3 mr-3 ml-3">
               <label for="first_name">First Name</label>
               <input type="text" class="form-control" id="first_name" placeholder="e.g. John" name="first_name" required>
             </div>
       
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3 mr-3 ml-3">
                 <label for="last_name">Last Name</label>
                 <input type="text" class="form-control" id="last_name" placeholder="e.g. Doe" name="last_name" required>
-              </div>
+            </div>
       
-              <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3 mr-3 ml-3">
                 <label for="email">Email</label>
                 <input type="text" class="form-control" id="email" name="email" required>
-              </div>
+            </div>
 
-              <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3 mr-3 ml-3">
                 <label for="message">Message</label>
                 <input type="text" class="form-control" id="message" name="message" required>
-              </div>
-          </div>
+            </div>
+        </div>
 
-    <div class="col-auto pl-5">
-      <button type="submit" class="btn btn-primary mb-2">Submit</button>
-    </div>
-  </form>
+            <div class="col-auto pl-5">
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            </div>
+    </form>
+</section>
 
   <div class="foot">
     <div id="map"></div>

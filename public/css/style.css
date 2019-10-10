@@ -2,21 +2,18 @@
   font-family: helvetica;
   margin-right: 0 auto;
   margin: 0 auto;
+  margin: 0;
+  padding: 0;
 
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
-* {
-  margin: 0;
-  padding: 0;
-}
 
 body {
   background: rgb(252, 123, 50) !important;
   margin-right: 0 auto;
   margin: 0 auto;
-
 }
 
 body.nav-opened {
@@ -42,20 +39,6 @@ body.nav-opened .nav {
   right: 0rem;
 }
 
-p,
-a {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Futura, Arial, sans-serif;
-}
-
 a {
   text-decoration: none;
 }
@@ -64,37 +47,6 @@ ul {
   list-style: none;
 }
 
-
-body {
-  margin: 0;
-}
-
-p {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 18px;
-}
-
-
-
-/* .parallax {
-  width: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  height: 70vh;
-}
-
-.z1 {
-  /* background-image: url('../images/bc2.jpg'); */
-  /* height: 30rem;
-}  */
-
-
-
-
-/* GENERAL TRANSITIONS */
 
 body,
 body.nav-opened,
@@ -128,16 +80,13 @@ header .main-nav .menu-btn:hover {
 /* HEADER */
 
 header {
-  position: relative;
-  display: table;
-  background: #28363A;
+
   background-image: url("../images/412030.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: top 40%;
-  width: 100%;
-  height: 70vh;
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
-  z-index: 0;
 }
 
 header .top-message {
@@ -164,7 +113,6 @@ header .top-message hr {
 }
 
 header .top-message h2 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.932);
 }
@@ -372,7 +320,6 @@ a.socialIcon:hover,
 .box img {
   width: 100%;
   height: 100%;
-  padding-top: 10px;
 }
 
 .box .content {
@@ -448,4 +395,19 @@ a.socialIcon:hover,
 #map {
   height: 100%;
   width: 100%;
+}
+
+#form {
+  font-size: 1.2em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #202020;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.inq {
+  font-size: 2em !important;
 }
