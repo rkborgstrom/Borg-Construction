@@ -4,18 +4,22 @@
   margin: 0 auto;
   margin: 0;
   padding: 0;
-
 }
 
 body {
-  background: rgb(252, 123, 50) !important;
+  /* background: rgb(252, 123, 50) !important; */
   margin-right: 0 auto;
   margin: 0 auto;
+  background-image: url("../images/412030.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
   background-image: url("../images/412030.jpg");
-  min-height: 500px; 
+  min-height: 400px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,7 +61,8 @@ header .top-message h2 {
 .main-content {
   width: 80%;
   margin: 50px auto 50px auto;
-  padding: 50px 0;
+  padding-top:50px;
+  padding-bottom:110px;
   color: white;
 }
 
@@ -73,7 +78,6 @@ header .top-message h2 {
 
 .card-deck {
   padding-bottom: 20px;
-
 }
 
 #goals {
@@ -95,9 +99,7 @@ header .top-message h2 {
 .row {
   display: flex;
   justify-content: center;
-  opacity: 0.8;
 }
-
 
 .message {
   display: flex;
@@ -138,7 +140,6 @@ header .top-message h2 {
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
   padding-top: 25%;
-  opacity: 0;
   position: absolute;
   top: 100%;
   left: 0;
@@ -202,6 +203,7 @@ header .top-message h2 {
   margin-right: 20px;
   margin-top: 20px;
 }
+
 #map {
   height: 100%;
   width: 100%;
