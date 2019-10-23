@@ -13,8 +13,6 @@ const index = require('./routes/index');
 const home = require('./routes/home');
 var moment = require('moment');
 
-
-
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
@@ -28,7 +26,6 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-
 app.get('/', (req, res, next) => {
     res.render('home', {all_data: []});
 })
@@ -40,11 +37,8 @@ app.use((_req, res) => {
     res.sendStatus(404);
 });
 
-
 app.listen(port, function () {
     console.log('Listening on port', port);
 });
-
-
 
 module.exports = app;
