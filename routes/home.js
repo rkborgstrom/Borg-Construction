@@ -7,11 +7,11 @@ let env = process.env.NODE_ENV || 'development';
 let config = require('../knexfile')[env];
 let knex = require('knex')(config);
 
-router.get('/data', (req, res) => {
-  res.render('data', {title: 'data'});
+router.get('/home', (req, res) => {
+  res.render('home', {title: 'home'});
 });
 
-router.post('/data', (req, res, next) => {
+router.post('/home', (req, res, next) => {
     knex('all_data')
     .insert({
         first_name: req.body.first_name,

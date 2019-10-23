@@ -7,7 +7,7 @@ let env = process.env.NODE_ENV || 'development';
 let config = require('../knexfile')[env];
 let knex = require('knex')(config);
 
-router.get('/', (req, res, next) => {
+router.get('/home', (req, res, next) => {
   knex('all_data')
   .returning('*')
   .then((all_data) => {
