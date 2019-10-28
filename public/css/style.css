@@ -16,19 +16,6 @@ html, body {
   overflow-x: hidden;
 }
 
-#nav {
-  background-color: #fc7b32;
-}
-
-.collapse {
-
-  background-color: black;
-}
-
-#navbarToggleExternalContent {
-  background-color: black;
-}
-
 header {
   height: 100%;
   min-height: 50vh;
@@ -37,6 +24,14 @@ header {
   background-size: cover;
   background-position: center;
   padding-left: 15px;
+}
+
+.nav {
+  color: white !important;
+}
+#links {
+  font-size: 2em;
+  background-color: #202020 !important;
 }
 
 .btn2 {
