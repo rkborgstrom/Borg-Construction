@@ -2,16 +2,14 @@
   font-family: helvetica;
   margin-right: 0 auto;
   margin: 0 auto;
-  margin: 0;
   padding: 0;
 }
 
 body {
-  /* background: rgb(252, 123, 50) !important; */
-  margin-right: 0 auto;
-  margin: 0 auto;
   background-image: url("../images/412030.jpg");
   width: 100%;
+  margin: 0 auto;
+  border: 0;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,6 +20,7 @@ header {
   background-image: url("../images/412030.jpg");
   min-height: 400px; 
   width: 100%;
+  border: 0;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -131,6 +130,7 @@ header .top-message h2 {
   color: white;
   padding-bottom: 20px;
   padding-top: 20px;
+  margin: 0 auto;
 }
 
 .services:before,
