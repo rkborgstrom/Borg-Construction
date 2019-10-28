@@ -10,7 +10,7 @@
   <div class="container">
 
     <div class="services">
-      <h2>Services</h2>
+      <h1>Services</h1>
     </div>
 
     <div class="row">
@@ -67,7 +67,9 @@
 
 <section class="form-bg d-flex justify-content-center" id="form">
     <form class="needs-validation" novalidate action="/home" method="POST">
-        <h1 class="inq" id="form">Inquiries</h1>
+      <div class="services">
+          <h1>Inquiries</h1>
+        </div>
         <div class="form-row" id="form">
 
             <div class="col-md-4 mb-3 mr-3 ml-3">
@@ -89,11 +91,9 @@
                 <label for="message">Message</label>
                 <input type="text" class="form-control" id="message" name="message" required>
             </div>
-
         </div>
-
-            <div class="col-auto pl-5">
-                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            <div class="row">
+                  <button type="submit" class="btn btn-outline-light btn-lg">Submit</button>
             </div>
     </form>
 </section>

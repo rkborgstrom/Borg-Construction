@@ -127,6 +127,8 @@ header .top-message h2 {
   overflow: hidden;
   text-align: center;
   color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .services:before,
