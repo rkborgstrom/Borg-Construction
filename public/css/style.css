@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #202020 !important;
+  background-color: #F56505 !important;
 }
 
 html, body {
@@ -163,9 +163,9 @@ header .top-message h2 {
 
 .main-content {
   width: 80%;
-  margin: 50px auto 50px auto;
-  padding-top:50px;
-  padding-bottom:110px;
+  margin: 40px auto 40px auto;
+  padding-top:30px;
+  padding-bottom:70px;
   color: white;
 }
 
@@ -243,6 +243,7 @@ header .top-message h2 {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0.7;
   color: #fff;
   padding-top: 25%;
   position: absolute;
@@ -255,6 +256,7 @@ header .top-message h2 {
   opacity: 0.8;
   top: 0;
   transform: rotateZ(0deg);
+  opacity: 1 !important;
 }
 
 .box h3 {
@@ -263,6 +265,7 @@ header .top-message h2 {
   font-weight: 700;
   margin: 0 0 15px 0;
   text-transform: capitalize;
+  opacity: 1 !important;
 }
 
 .box .icon {
@@ -314,7 +317,7 @@ header .top-message h2 {
 }
 
 #form {
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: white;
   display: flex;
   justify-content: center;
