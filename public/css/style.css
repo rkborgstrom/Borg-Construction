@@ -43,17 +43,12 @@ body {
 header {
   background-image: url("../images/412030.jpg");
   height: 100%;
-  min-height: 35vh;
+  min-height: 55vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-left: 30px;
-}
-
-.middle {
-  position: absolute;
-  text-align: center;
 }
 
 .btn2 {
