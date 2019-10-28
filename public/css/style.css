@@ -8,13 +8,25 @@
 
 body {
   background-color: #F56505 !important;
+  padding-top: 0;
+  position: relative
 }
 
 html, body {
   overflow-x: hidden;
 }
-body {
-  position: relative
+
+#nav {
+  background-color: #fc7b32;
+}
+
+.collapse {
+
+  background-color: black;
+}
+
+#navbarToggleExternalContent {
+  background-color: black;
 }
 
 header {
@@ -91,7 +103,7 @@ header .top-message {
   vertical-align: middle;
   text-align: center;
   color: white;
-  padding-left: 8px;
+  padding-left: 18px;
   padding-top: 30px;
 }
 
