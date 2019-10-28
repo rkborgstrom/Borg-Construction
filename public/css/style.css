@@ -122,6 +122,7 @@ header .top-message h2 {
 
 .site-wrapper {
   background: rgb(32, 32, 32);
+  width: 100%;
 }
 
 .services {
@@ -131,6 +132,7 @@ header .top-message h2 {
   padding-bottom: 20px;
   padding-top: 20px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .services:before,
@@ -161,6 +163,7 @@ header .top-message h2 {
 
 .container {
   background-color: #202020;
+  width: 100%;
 }
 
 
@@ -175,6 +178,7 @@ header .top-message h2 {
 .card {
   background-color: #202020;
   color: white;
+  width: 100%;
 }
 
 .card-title {
@@ -233,6 +237,7 @@ header .top-message h2 {
   overflow: hidden;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   position: relative;
+  width: 100%;
 }
 
 .box img {
