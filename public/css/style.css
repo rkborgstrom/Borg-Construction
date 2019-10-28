@@ -123,6 +123,43 @@ header .top-message h2 {
   background: rgb(32, 32, 32);
 }
 
+.services {
+  overflow: hidden;
+  text-align: center;
+  color: white;
+}
+
+.services:before,
+.services:after {
+  background-color: white;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.services:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.services:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.services span {
+  background:#fff; 
+  padding:0 10px; 
+}
+
+.container {
+  background-color: #202020;
+}
+
+
 .main-content {
   width: 80%;
   margin: 50px auto 50px auto;
@@ -206,14 +243,13 @@ header .top-message h2 {
   color: #fff;
   padding-top: 25%;
   position: absolute;
-  top: 100%;
+  top: 0%;
   left: 0;
-  transform: rotateZ(300deg);
   transition: all 0.4s ease 0s;
 }
 
 .box:hover .content {
-  opacity: 1;
+  opacity: 0.8;
   top: 0;
   transform: rotateZ(0deg);
 }
