@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #F56505 !important;
+ background-color: #202020 !important;
   padding-top: 0;
   position: relative
 }
@@ -16,7 +16,7 @@ html, body {
   overflow-x: hidden;
 }
 
-header {
+/* header {
   height: 100%;
   min-height: 50vh;
   background-image: url("../images/412030.jpg");
@@ -32,7 +32,114 @@ header {
 #links {
   font-size: 2em;
   background-color: #202020 !important;
+} */
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+* {
+  box-sizing: border-box;
 }
+
+h1, h3{
+    font-family: 'Lato';
+}
+h2, p, a{font-family: 'Roboto',Helvetica, sans-serif;}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 900px;
+}
+
+header {
+color: white;
+padding: 30% 0;
+height: 100%;
+text-align: center;
+position: relative;
+z-index: 1;
+overflow: hidden;
+}
+header h2 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 0 0 1rem;
+}
+
+
+
+.LogoImage{max-width: 100px}
+.BgImage {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.BgImage:before {
+content: '';
+display: block;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+width: 100%;
+height: 150%;
+z-index: -1;
+background: url("../images/412030.jpg") no-repeat top center;
+background-size: cover;
+background-attachment: fixed;
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+}
+.BgImage.SecondBg:before {
+  background-image: url("../images/412030.jpg");
+  background-position: center center;
+}
+@media screen and (max-width: 600px ) {
+  .btn {
+    padding: .5rem .7rem .6rem;
+    font-size: 1rem;
+  }
+  header {
+    padding: 50% 0;
+  }
+ 
+header h1 {
+  font-size: 30px;
+  margin: 0 0 1rem;
+}
+
+  .Detail {
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .Detail:last-child {
+    border: none;
+  }
+  .firstDescription {
+    height: 200px;
+    width: auto;
+    margin: 0 auto;
+  }
+
+}
+
+
+
+
 
 .btn2 {
   display: inline-block;
@@ -93,7 +200,7 @@ header {
   }
 }
 
-header .top-message {
+/* header .top-message {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -123,7 +230,7 @@ header .top-message h2 {
 .site-wrapper {
   background: rgb(32, 32, 32);
   width: 100%;
-}
+} */
 
 .services {
   overflow: hidden;
@@ -160,12 +267,6 @@ header .top-message h2 {
   background:#fff; 
   padding:0 10px; 
 }
-
-.container {
-  background-color: #202020;
-  width: 100%;
-}
-
 
 .main-content {
   width: 80%;
