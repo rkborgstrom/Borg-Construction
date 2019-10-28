@@ -16,42 +16,10 @@ html, body {
   overflow-x: hidden;
 }
 
-/* header {
-  height: 100%;
-  min-height: 50vh;
-  background-image: url("../images/412030.jpg");
-  background-repeat: repeat;
-  background-size: cover;
-  background-position: center;
-  padding-left: 15px;
-}
-
-.nav {
-  color: white !important;
-}
-#links {
+ #links {
   font-size: 2em;
   background-color: #202020 !important;
-} */
-
-
-@import url(https://fonts.googleapis.com/css?family=Lato:700);
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
-* {
-  box-sizing: border-box;
-}
-
-h1, h3{
-    font-family: 'Lato';
-}
-h2, p, a{font-family: 'Roboto',Helvetica, sans-serif;}
-
-a {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-}
+} 
 
 img {
   max-width: 100%;
@@ -80,7 +48,7 @@ header h2 {
 
 
 
-.LogoImage{max-width: 100px}
+.LogoImage{max-width: 200px}
 .BgImage {
   text-align: center;
   position: relative;
@@ -96,7 +64,7 @@ bottom: 0;
 left: 0;
 right: 0;
 width: 100%;
-height: 150%;
+min-height: 100vh;
 z-index: -1;
 background: url("../images/412030.jpg") no-repeat top center;
 background-size: cover;
@@ -105,6 +73,7 @@ background-attachment: fixed;
 transform: scale(1.2);
 }
 .BgImage.SecondBg:before {
+  min-height: 100vh;
   background-image: url("../images/412030.jpg");
   background-position: center center;
 }
@@ -120,23 +89,8 @@ transform: scale(1.2);
 header h1 {
   font-size: 30px;
   margin: 0 0 1rem;
-}
-
-  .Detail {
-    margin: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
-  .Detail:last-child {
-    border: none;
-  }
-  .firstDescription {
-    height: 200px;
-    width: auto;
-    margin: 0 auto;
-  }
-
-}
-
+ }  
 
 
 
