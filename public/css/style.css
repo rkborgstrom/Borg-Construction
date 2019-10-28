@@ -41,6 +41,13 @@ body {
   margin: 0;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
 header {
   background-image: url("../images/412030.jpg");
   height: 100%;
