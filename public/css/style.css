@@ -8,6 +8,7 @@
 
 body {
   height: auto;
+  max-width: 100%;
   min-height: 100vh;
   background-image: url("../images/412030.jpg");
   background-attachment: fixed;
@@ -26,6 +27,7 @@ body {
 
 header {
   height: auto;
+  max-width: 100%;
   min-height: 55vh;
   background-image: url("../images/412030.jpg");
   background-attachment: fixed;
