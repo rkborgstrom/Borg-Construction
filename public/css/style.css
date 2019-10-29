@@ -13,7 +13,7 @@ body {
 
 
 
- .parallax {
+ body {
   height: 100%;
   min-height: 70vh;
   background: url('../images/412030.jpg') repeat center center fixed;
@@ -22,6 +22,7 @@ body {
   background-position: center;
 }
 
+background: url('../images/412030.jpg') repeat center center fixed;
 
 .btn2 {
   display: inline-block;
