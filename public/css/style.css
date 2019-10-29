@@ -16,6 +16,10 @@ html, body {
   overflow-x: hidden;
 }
 
+.bc {
+  font-size:4em;
+}
+
  #links {
   font-size: 2em;
   background-color: #202020 !important;
@@ -148,38 +152,6 @@ header h1 {
     left: -10%;
   }
 }
-
-/* header .top-message {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  color: white;
-  padding-top: 30px;
-}
-
-header .top-message h1 {
-  font-size: 5rem;
-  color: white;
-  font-weight: 100;
-}
-
-header .top-message hr {
-  border: 3px solid #fc7b32;
-  width: 15%;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-  margin-top: 0.2rem;
-}
-
-header .top-message h2 {
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.932);
-}
-
-.site-wrapper {
-  background: rgb(32, 32, 32);
-  width: 100%;
-} */
 
 .services {
   overflow: hidden;
@@ -357,6 +329,10 @@ header .top-message h2 {
   .box {
     margin-bottom: 30px !important;
   }
+}
+
+#proj {
+  color: black;s
 }
 
 .foot {
