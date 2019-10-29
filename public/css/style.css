@@ -1,17 +1,10 @@
-* {
+/* * {
   font-family: helvetica;
 }
 
 body {
- background-color: #202020;
-}
-
- #links {
-  font-size: 2em;
-  background-color: #202020 !important;
-} 
-
-
+ background-color: #202020 !important;
+} */
 
  .parallax {
   height: 100%;
@@ -22,7 +15,7 @@ body {
   background-position: center;
 }
 
-.btn2 {
+/* .btn2 {
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -249,7 +242,7 @@ body {
 
 @media screen and (max-width:1000px) {
   .box {
-    margin-bottom: 30px !important;
+    margin-bottom: 30px;
   }
 }
 
@@ -285,4 +278,4 @@ body {
 
 .inq {
   font-size: 2em !important;
-}
+} */
