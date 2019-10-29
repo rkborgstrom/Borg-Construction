@@ -11,6 +11,9 @@ const knex = require('knex')(config);
 const morgan = require('morgan');
 const index = require('./routes/index');
 const home = require('./routes/home');
+const residential = require('./routes/residential');
+const commercial = require('./routes/commercial');
+const gc = require('./routes/general-contracting');
 var moment = require('moment');
 
 app.set('views', path.join(__dirname, 'views'));
@@ -32,6 +35,10 @@ app.get('/', (req, res, next) => {
 
 app.use('/index', index);
 app.use(home);
+app.use(commercial);
+app.use(residential);
+app.use(gc);
+
 
 app.use((_req, res) => {
     res.sendStatus(404);
