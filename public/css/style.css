@@ -10,37 +10,6 @@ body {
   font-size: 2em;
   background-color: #202020 !important;
 } 
-.responsive {
-  width: 100%;
-  height: auto;
-}
-
-.carousel-item {
-  height: 65vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-
-.contain {
-  border: 1px solid #DDDDDD;
-  width: 200px;
-  height: 200px;
-  position:relative;
-}
-.tag {
-  float: left;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  background-color: green;
-}
-
-
 
 .btn2 {
   display: inline-block;
