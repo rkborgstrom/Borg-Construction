@@ -13,19 +13,61 @@ body {
 
 
 
-html,
-body {
-  margin: 0;
+
+
+
+
+
+
+
+.hero-section {
+  display: grid;
+  align-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background: url('../images/412030.jpg');
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--light);
+  text-align: center;
+  margin: 0 0;
+  min-height: 616px;
 }
 
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1224px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-title {
+  font-size: 54px;
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+
+
+
+
+
+
+
+
+
+/* 
 .hero {
-  background-size: 150%;
   background-repeat: no-repeat;
   background-position: left;
   -webkit-animation: slide 40s ease;
   transform: translate3d(0,0,0);
   height: 40vh;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .hero:before {
@@ -56,23 +98,10 @@ body {
 }
 
 .hero__content {
-    padding: 200px 100px;
     max-width: 310px;
-}
-
-.btn {
-  background: #4C384B;
-  color: white;
-  text-decoration: none;
-  padding: 10px 40px;
-  margin: 20px 0;
-  display: inline-block;
-  border-radius: 3px;
-  font-size: 20px;
-}
-
-
-
+    color: white !important;
+    font-size: 4em;
+} */
 
 .btn2 {
   display: inline-block;
