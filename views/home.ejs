@@ -53,7 +53,8 @@
               <li><a href="#" class="fa fa-search"></a></li>
               <li><a href="#" class="fa fa-link"></a></li>
               <br><br>
-              <a href="/general-contracting" id="proj" type="button" class="btn btn-dark btn-lg btn-block">See Projects</a>
+              <a href="/general-contracting" id="proj" type="button" class="btn btn-dark btn-lg btn-block">See
+                Projects</a>
             </ul>
           </div>
         </div>
@@ -61,38 +62,38 @@
     </div>
   </div>
   <br><br>
-<section style='border:5px solid #f56504' class="form-bg d-flex justify-content-center" id="form">
+  <section style='border:5px solid #f56504' class="form-bg d-flex justify-content-center" id="form">
     <form class="needs-validation" novalidate action="/home" method="POST">
       <div class="services">
-          <h1>Inquiries</h1>
-        </div>
-        <div class="form-row" id="form">
+        <h1>Inquiries</h1>
+      </div>
+      <div class="form-row" id="form">
 
-            <div class="col-md-4 mb-5 mr-5 ml-5">
-              <label for="first_name">First Name</label>
-              <input type="text" class="form-control" id="first_name" placeholder="e.g. John" name="first_name" required>
-            </div>
-      
-            <div class="col-md-4 mb-5 mr-5 ml-5">
-                <label for="last_name">Last Name</label>
-                <input type="text" class="form-control" id="last_name" placeholder="e.g. Doe" name="last_name" required>
-            </div>
-      
-            <div class="col-md-4 mb-5 mr-5 ml-5">
-                <label for="email">Email</label>
-                <input type="text" class="form-control" id="email" name="email" required>
-            </div>
-
-            <div class="col-md-4 mb-5 mr-5 ml-5">
-                <label for="message">Message</label>
-                <input type="text" class="form-control" id="message" name="message" required>
-            </div>
+        <div class="col-md-4 mb-5 mr-5 ml-5">
+          <label for="first_name">First Name</label>
+          <input type="text" class="form-control" id="first_name" placeholder="e.g. John" name="first_name" required>
         </div>
-            <div class="row">
-                  <button type="submit" class="btn btn-outline-light btn-lg">Submit</button>
-            </div>
+
+        <div class="col-md-4 mb-5 mr-5 ml-5">
+          <label for="last_name">Last Name</label>
+          <input type="text" class="form-control" id="last_name" placeholder="e.g. Doe" name="last_name" required>
+        </div>
+
+        <div class="col-md-4 mb-5 mr-5 ml-5">
+          <label for="email">Email</label>
+          <input type="text" class="form-control" id="email" name="email" required>
+        </div>
+
+        <div class="col-md-4 mb-5 mr-5 ml-5">
+          <label for="message">Message</label>
+          <input type="text" class="form-control" id="message" name="message" required>
+        </div>
+      </div>
+      <div class="row">
+        <button type="submit" class="btn btn-outline-light btn-lg">Submit</button>
+      </div>
     </form>
-</section>
+  </section>
 
   <div class="foot">
     <div id="map"></div>
@@ -100,7 +101,10 @@
       var map;
 
       function initMap() {
-        var myLatLng = {lat:41.9255, lng: -87.6488};
+        var myLatLng = {
+          lat: 41.9255,
+          lng: -87.6488
+        };
 
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 8,
@@ -118,6 +122,12 @@
       async defer></script>
 
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>

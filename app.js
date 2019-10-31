@@ -30,7 +30,9 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.get('/', (req, res, next) => {
-    res.render('home', {all_data: []});
+    res.render('home', {
+        all_data: []
+    });
 })
 
 app.use('/index', index);
