@@ -81,7 +81,7 @@ body {
   color: var(--light);
   text-align: center;
   margin: 0 0;
-  min-height: 516px;
+  min-height: 416px;
 }
 
 .hero-grid {
