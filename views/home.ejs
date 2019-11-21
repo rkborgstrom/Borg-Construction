@@ -10,7 +10,8 @@
   <div class="container">
 
     <div class="services">
-      <h1>Services</h1>
+      <h1 class="serv"><strong>Services</strong></h1>
+      <img height="130" width="190" src="../images/wrench.png" alt="Cones">
     </div>
 
     <div class="row">
@@ -68,18 +69,18 @@
   <section style='border:5px solid #f56504' class="form-bg d-flex justify-content-center" id="form">
     <form class="needs-validation" novalidate action="/home" method="POST">
       <div class="services">
-        <h1>Inquiries</h1>
+        <h1>Get Quote</h1>
       </div>
       <div class="form-row" id="form">
 
         <div class="col-md-4 mb-5 mr-5 ml-5">
-          <label for="first_name">First Name</label>
-          <input type="text" class="form-control" id="first_name" placeholder="e.g. John" name="first_name" required>
+          <label for="first_name">Full Name</label>
+          <input type="text" class="form-control" id="first_name"  name="first_name" required>
         </div>
 
         <div class="col-md-4 mb-5 mr-5 ml-5">
-          <label for="last_name">Last Name</label>
-          <input type="text" class="form-control" id="last_name" placeholder="e.g. Doe" name="last_name" required>
+          <label for="last_name">Phone Number</label>
+          <input type="text" class="form-control" id="last_name"  name="last_name" required>
         </div>
 
         <div class="col-md-4 mb-5 mr-5 ml-5">
@@ -89,7 +90,7 @@
 
         <div class="col-md-4 mb-5 mr-5 ml-5">
           <label for="message">Message</label>
-          <input type="text" class="form-control" id="message" name="message" required>
+          <input type="text" class="form-control" id="message"  name="message" required>
         </div>
       </div>
       <div class="row">
@@ -134,3 +135,5 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+
+<% include partials/footer %>

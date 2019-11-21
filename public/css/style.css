@@ -102,21 +102,46 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 17px;
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 0.3em;
+  background-color: #202020;
+  color: #c0b99c;
+  opacity: 0.6;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.hero-title3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
   margin-top: 0;
   margin-bottom: 0.3em;
   background-color: #202020;
   color: white;
   opacity: 0.6;
   padding-top: 5px;
+  padding-left: 15px;
+}
+
+.main-content {
+  background-color: #beb58c;
+  padding: 50px 50px 50px 50px;
 }
 
 .pg {
-  color: white;
+  font-size: 3em;
+  color: black;
   padding-bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.serv {
+  font-size: 4em;
 }
 
 .services {
@@ -171,8 +196,8 @@ body {
 }
 
 #goals {
-  font-size: 1.5em;
-  color: white;
+  font-size: 2.3em;
+  color: black;
 }
 
 .g1 {
