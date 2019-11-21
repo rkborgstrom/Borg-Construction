@@ -17,11 +17,6 @@ body {
   padding-left: 30px;
 }
 
-
-
-
-
-
 .center {
   display: flex;
   align-items: center;
@@ -229,14 +224,14 @@ body {
 }
 
 .hero-title2 {
-text-align: center;
+  text-align: center;
   font-size: 3em;
   margin-top: 0;
   margin-bottom: 0.3em;
   background-color: #202020;
   color: #c0b99c;
   opacity: 0.6;
-  padding-top: 5px;
+  padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -344,6 +339,7 @@ text-align: center;
 .row {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .message {
@@ -361,6 +357,10 @@ text-align: center;
   color: white;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.gc {
+  color: black;
 }
 
 .line {
