@@ -99,11 +99,16 @@ body {
 }
 
 .hero-title2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 17px;
   margin-top: 0;
   margin-bottom: 0.3em;
   background-color: #202020;
+  color: white;
   opacity: 0.6;
+  padding-top: 5px;
 }
 
 .pg {
